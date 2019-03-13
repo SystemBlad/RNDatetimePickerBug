@@ -3,9 +3,9 @@ GitHub repository to show the BUG number #223 in react-native-modal-datetime-pic
 
 Environment:
 
-    "react": "16.8.3"    
-    "react-native": "0.59.0"    
-    "react-native-modal": "^9.0.0"    
+    "react": "16.8.3"
+    "react-native": "0.59.0"
+    "react-native-modal": "^9.0.0"
     "react-native-modal-datetime-picker": "^6.0.0"
 
 
@@ -15,5 +15,9 @@ Environment:
 
 The error is presented because react-native-modal-datetime-picker is using "react-native-modal": "6.2.0".
 
-# To Reproduce 
-Just download the repository and run npm install
+# To Reproduce
+1 Clone the repository and run npm install
+2 Run the project react-native run-android
+3 Run npm install  --save react-native-modal-datetime-picker
+3 Run npm install  --save react-native-modal
+4 Run again the project to see the error
