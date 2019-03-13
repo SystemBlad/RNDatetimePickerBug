@@ -16,8 +16,10 @@ Environment:
 The error is presented because react-native-modal-datetime-picker is using "react-native-modal": "6.2.0".
 
 # To Reproduce
-1 Clone the repository and run npm install
-2 Run the project react-native run-android
-3 Run npm install  --save react-native-modal-datetime-picker
+1 Clone the repository and
+2 Run npm install
+2 Run react-native run-android
+3 Test the two buttons to show the modals
 3 Run npm install  --save react-native-modal
-4 Run again the project to see the error
+4 Run react-native run-android
+5 the Bug is presented.
