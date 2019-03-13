@@ -8,8 +8,8 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-import DateTimePicker from 'react-native-modal-datetime-picker';
-import Modal from "react-native-modal";
+// import DateTimePicker from 'react-native-modal-datetime-picker';
+// import Modal from "react-native-modal";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -46,7 +46,7 @@ export default class App extends Component<Props> {
             <TouchableOpacity onPress={this._toggleModal}>
                 <Text>Show Modal</Text>
             </TouchableOpacity>
-            <DateTimePicker
+{/*            <DateTimePicker
                 isVisible={this.state.isDateTimePickerVisible}
                 onConfirm={this._handleDatePicked}
                 onCancel={this._hideDateTimePicker}
@@ -58,7 +58,7 @@ export default class App extends Component<Props> {
                         <Text>Hide me!</Text>
                     </TouchableOpacity>
                 </View>
-            </Modal>
+            </Modal>*/}
         </View>
     );
   }
